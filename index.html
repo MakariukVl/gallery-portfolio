@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Grid</title>
+</head>
+
+<body class="layout">
+  <header class="header">
+    <div class="logo">
+      <img src="./images/logo.png" alt="photograph logo" class="logo__img">
+      <h2 class="logo__header">Ann Emannuel</h2>
+      <span class="logo__description">Photographer, designer and artist</span>
+    </div>
+  </header>
+  <section class="gallery">
+    <img src="https://picsum.photos/300/150?random=1" alt="lorem picsum" class="gallery__img rowspan-sm">
+    <img src="https://picsum.photos/300/450?random=1" alt="lorem picsum" class="gallery__img rowspan-lg">
+    <img src="https://picsum.photos/300/300?random=1" alt="lorem picsum" class="gallery__img rowspan-md">
+    <img src="https://picsum.photos/300/150?random=2" alt="lorem picsum" class="gallery__img rowspan-sm">
+
+    <img src="https://picsum.photos/300/300?random=2" alt="lorem picsum" class="gallery__img rowspan-md">
+    <img src="https://picsum.photos/300/150?random=3" alt="lorem picsum" class="gallery__img rowspan-sm">
+    <img src="https://picsum.photos/300/300?random=3" alt="lorem picsum" class="gallery__img rowspan-md">
+    <img src="https://picsum.photos/300/300?random=4" alt="lorem picsum" class="gallery__img rowspan-md">
+
+    <img src="https://picsum.photos/300/450?random=2" alt="lorem picsum" class="gallery__img rowspan-lg">
+    <img src="https://picsum.photos/300/150?random=2" alt="lorem picsum" class="gallery__img rowspan-sm">
+    <img src="https://picsum.photos/300/450?random=3" alt="lorem picsum" class="gallery__img rowspan-lg">
+
+    <img src="https://picsum.photos/300/150?random=4" alt="lorem picsum" class="gallery__img rowspan-sm">
+    <img src="https://picsum.photos/300/450?random=4" alt="lorem picsum" class="gallery__img rowspan-lg">
+    <img src="https://picsum.photos/300/300?random=5" alt="lorem picsum" class="gallery__img rowspan-md">
+  </section>
+  <section class="sidebar">
+    <div class="bio">
+      <img src="./images/avatar.jpg" alt="user's photo" class="bio__avatar">
+      <h3 class="bio__header">Ann Emannuel</h3>
+      <span class="bio__description mb-10">Photographer, designer and artist</span>
+      <p class="bio__text mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae autem iusto
+        accusamus perferendis sapiente, qui fugit, provident repellendus temporibus maiores molestias eveniet. Quam ex
+        odit veniam in quisquam, placeat quis reiciendis voluptatibus? Unde accusamus sed laudantium cupiditate, esse
+        quos
+        dolorum eum id necessitatibus voluptates sapiente maiores alias nam fugiat!</p>
+      <p class="bio__text mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quaerat
+        necessitatibus
+        ipsa veniam. Suscipit ipsam inventore ad aliquid neque qui sequi sed dicta praesentium earum!</p>
+      <span class="bio__icons">
+        <i class="fa fa-dribbble" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-facebook-f" aria-hidden="true"></i>
+      </span>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="./images/logo.png" alt="photograph logo" class="footer-logo__img">
+      <h4 class="footer-logo__header">Ann Emannuel</h4>
+      <span class="footer-logo__description">Photographer, designer and artist</span>
+      <span class="copy">&copy; EPAM Systems 2021</span>
+    </div>
+  </footer>
+</body>
+
+</html>
